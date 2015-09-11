@@ -325,3 +325,9 @@ blockquote p {
 .bComment textarea {
 	width: auto !important;
 }
+#content .image_block {
+	text-align: left !important;
+}
+div.bComment, form.bComment {
+	border: none !important;
+}
