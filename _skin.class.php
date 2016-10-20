@@ -20,6 +20,12 @@ if( !defined('EVO_MAIN_INIT') ) die( 'Please, do not access this page directly.'
 class commercial_Skin extends Skin
 {
 	/**
+	 * Skin version
+	 * @var string
+	 */
+	var $version = '1.1.1';
+	
+	/**
 	 * Get default name for the skin.
 	 * Note: the admin can customize it.
 	 */
